@@ -5,8 +5,8 @@
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/buffer-utils
 ;; URL: http://raw.github.com/rolandwalker/buffer-utils/master/buffer-utils.el
-;; Version: 0.0.1
-;; Last-Updated: 1 Sep 2012
+;; Version: 0.0.2
+;; Last-Updated: 5 Sep 2012
 ;; EmacsWiki: BufferUtils
 ;; Keywords: extensions
 ;;
