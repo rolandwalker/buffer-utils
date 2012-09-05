@@ -14,6 +14,17 @@
 ;;
 ;;; Commentary:
 ;;
+;; Quickstart
+;;
+;;     (require 'buffer-utils)
+;;
+;;     (buffer-utils-save-order
+;;       (bury-buffer "*scratch*"))
+;;
+;;     ;; buffer order is restored
+;;
+;; Explanation
+;;
 ;; Buffer-utils.el is a collection of functions for buffer manipulation.
 ;;
 ;; This library exposes very little user-level interface; it is
