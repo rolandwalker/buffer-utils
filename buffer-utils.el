@@ -46,7 +46,7 @@
 ;;
 ;; Compatibility and Requirements
 ;;
-;;    Tested only on GNU Emacs version 24.1
+;;    Tested on GNU Emacs versions 23.3 and 24.1
 ;;
 ;;    No external dependencies
 ;;
@@ -256,12 +256,14 @@ BUFFER-OR-NAME is optional, and defaults to the current buffer.
 `buffer-list'.  A buried buffer is moved to the end of the list.
 
 \"Forgetting\" refers to window WIN's memory of what it has
-displayed.  WIN is optional, and defaults to the selected window.
+displayed.  This only has an effect in GNU Emacs 24.1 or higher.
+WIN is optional, and defaults to the selected window.
 
 See `bury-buffer' and `unrecord-window-buffer'."
   (interactive)
   (buffer-utils-system-bury-buffer buffer-or-name)
-  (unrecord-window-buffer win (window-normalize-buffer buffer-or-name))
+  (when (fboundp 'unrecord-window-buffer)
+    (unrecord-window-buffer win (window-normalize-buffer buffer-or-name)))
   nil)
 
 (provide 'buffer-utils)
