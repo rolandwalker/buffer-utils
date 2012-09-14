@@ -105,13 +105,11 @@
 
 ;;; requires
 
-;; for callf, loop
-(eval-when-compile
-  (require 'cl))
+;; for callf, loop, gensym
+(require 'cl)
 
-(declare-function loop                            "cl-seq.el")
-(declare-function gensym                          "cl-macs.el")
 (declare-function buffer-utils-system-bury-buffer "buffer-utils.el")
+(declare-function window-normalize-buffer         "window.el")
 
 ;;; variables
 
