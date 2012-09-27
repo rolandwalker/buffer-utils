@@ -8,12 +8,14 @@ Buffer-manipulation utility functions for Emacs.
 Quickstart
 ----------
 
-	(require 'buffer-utils)
-
-	(buffer-utils-save-order
-	  (bury-buffer "*scratch*"))
-
-	;; buffer order is restored
+```lisp
+(require 'buffer-utils)
+ 
+(buffer-utils-save-order
+  (bury-buffer "*scratch*"))
+ 
+;; buffer order is now restored
+```
 
 buffer-utils.el
 ---------------
@@ -26,7 +28,9 @@ generally useful only for programming in Emacs Lisp.
 To use buffer-utils, place the buffer-utils.el library somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
 
-	(require 'buffer-utils)
+```lisp
+(require 'buffer-utils)
+```
 
 The following functions and macros are provided:
 
