@@ -21,7 +21,7 @@
 ;;     (buffer-utils-save-order
 ;;       (bury-buffer "*scratch*"))
 ;;
-;;     ;; buffer order is restored
+;;     ;; buffer order is now restored
 ;;
 ;; Explanation
 ;;
