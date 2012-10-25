@@ -292,7 +292,7 @@ See `bury-buffer' and `unrecord-window-buffer'."
 ;; End:
 ;;
 ;; LocalWords: BufferUtils ARGS alist utils nonlocally callf WIN's
-;; LocalWords: fsets fset flet
+;; LocalWords: fsets fset flet devel gensym
 ;;
 
 ;;; buffer-utils.el ends here

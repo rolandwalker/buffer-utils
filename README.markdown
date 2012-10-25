@@ -17,8 +17,8 @@ Quickstart
 ;; buffer order is now restored
 ```
 
-buffer-utils.el
----------------
+Explanation
+-----------
 
 Buffer-utils.el is a collection of functions for buffer manipulation.
 
