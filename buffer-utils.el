@@ -106,10 +106,12 @@
 ;;; Code:
 ;;
 
-;;; requires
+;;; requirements
 
 ;; for callf, loop, gensym
 (require 'cl)
+
+;;; declarations
 
 (declare-function buffer-utils-system-bury-buffer "buffer-utils.el")
 (declare-function window-normalize-buffer         "window.el")
