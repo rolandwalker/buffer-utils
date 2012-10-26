@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/rolandwalker/buffer-utils.png)](http://travis-ci.org/rolandwalker/buffer-utils)
+[![Build Status](https://secure.travis-ci.org/rolandwalker/buffer-utils.png?branch=master)](http://travis-ci.org/rolandwalker/buffer-utils)
 
 Overview
 ========
