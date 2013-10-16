@@ -181,8 +181,10 @@ The size cutoff is defined by the variable
 BUFFER is optional, and defaults to the current buffer."
   (callf or buffer (current-buffer))
   (with-current-buffer buffer
-    (or (/= (point-min) 1)
-        (/= (point-max) (1+ (buffer-size))))))
+    (if (fboundp 'buffer-narrowed-p)
+        (buffer-narrowed-p)
+      (or (/= (point-min) 1)
+          (/= (point-max) (1+ (buffer-size)))))))
 
 ;;;###autoload
 (defun buffer-utils-in-mode (buffer mode &optional derived)
