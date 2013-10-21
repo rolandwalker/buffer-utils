@@ -134,6 +134,21 @@ which is being obsoleted.")
 
 (fset 'buffer-utils-system-bury-buffer (symbol-function 'bury-buffer))
 
+;;; compatibility functions
+
+(unless (fboundp 'with-demoted-errors)
+  ;; added in 23.x
+  (defmacro with-demoted-errors (&rest body)
+    "Run BODY and demote any errors to simple messages.
+If `debug-on-error' is non-nil, run BODY without catching its errors.
+This is to be used around code which is not expected to signal an error
+but which should be robust in the unexpected case that an error is signaled."
+    (declare (debug t) (indent 0))
+    (let ((err (make-symbol "err")))
+      `(condition-case-unless-debug ,err
+           (progn ,@body)
+         (error (message "Error: %S" ,err) nil)))))
+
 ;;; macros
 
 ;;;###autoload
