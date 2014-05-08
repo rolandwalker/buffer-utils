@@ -4,7 +4,7 @@
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/buffer-utils
-;; URL: http://raw.github.com/rolandwalker/buffer-utils/master/buffer-utils.el
+;; URL: http://raw.githubusercontent.com/rolandwalker/buffer-utils/master/buffer-utils.el
 ;; Version: 0.1.0
 ;; Last-Updated: 21 Oct 2013
 ;; EmacsWiki: BufferUtils
