@@ -1,6 +1,6 @@
 ;;; buffer-utils.el --- Buffer-manipulation utility functions
 ;;
-;; Copyright (c) 2012-13 Roland Walker
+;; Copyright (c) 2012-14 Roland Walker
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/buffer-utils
