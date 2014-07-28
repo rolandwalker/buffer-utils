@@ -1,12 +1,10 @@
 [![Build Status](https://secure.travis-ci.org/rolandwalker/buffer-utils.png?branch=master)](http://travis-ci.org/rolandwalker/buffer-utils)
 
-Overview
-========
+# Overview
 
 Buffer-manipulation utility functions for Emacs.
 
-Quickstart
-----------
+## Quickstart
 
 ```elisp
 (require 'buffer-utils)
@@ -17,8 +15,7 @@ Quickstart
 ;; buffer order is now restored
 ```
 
-Explanation
------------
+## Explanation
 
 Buffer-utils.el is a collection of functions for buffer manipulation.
 
@@ -50,8 +47,7 @@ of which `buffer-utils-save-order` is the most notable.
 `buffer-utils-save-order` is a macro, similar to `save-current-buffer`,
 which saves and restores the order of the buffer list.
 
-Compatibility and Requirements
-------------------------------
+## Compatibility and Requirements
 
 	GNU Emacs version 24.4-devel     : yes, at the time of writing
 	GNU Emacs version 24.3           : yes
