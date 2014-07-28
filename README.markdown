@@ -8,7 +8,7 @@ Buffer-manipulation utility functions for Emacs.
 Quickstart
 ----------
 
-```lisp
+```elisp
 (require 'buffer-utils)
  
 (buffer-utils-save-order
@@ -28,7 +28,7 @@ generally useful only for programming in Emacs Lisp.
 To use buffer-utils, place the buffer-utils.el library somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
 
-```lisp
+```elisp
 (require 'buffer-utils)
 ```
 
