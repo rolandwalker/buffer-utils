@@ -17,7 +17,7 @@ Buffer-manipulation utility functions for Emacs.
 
 ## Explanation
 
-Buffer-utils.el is a collection of functions for buffer manipulation.
+`buffer-utils.el` is a collection of functions for buffer manipulation.
 
 This library exposes very little user-level interface; it is
 generally useful only for programming in Emacs Lisp.
