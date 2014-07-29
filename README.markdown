@@ -22,8 +22,8 @@ Buffer-utils.el is a collection of functions for buffer manipulation.
 This library exposes very little user-level interface; it is
 generally useful only for programming in Emacs Lisp.
 
-To use buffer-utils, place the buffer-utils.el library somewhere
-Emacs can find it, and add the following to your ~/.emacs file:
+To use buffer-utils, place the `buffer-utils.el` library somewhere
+Emacs can find it, and add the following to your `~/.emacs` file:
 
 ```elisp
 (require 'buffer-utils)
