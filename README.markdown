@@ -4,6 +4,10 @@
 
 Buffer-manipulation utility functions for Emacs.
 
+ * [Quickstart](#quickstart)
+ * [Explanation](#explanation)
+ * [Compatibility and Requirements](#compatibility-and-requirements)
+
 ## Quickstart
 
 ```elisp
